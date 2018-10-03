@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" >
+    <style name="customWindowTitleBackground">
+    	<item name="android:background">@drawable/titlebar_background</item>
+	</style>
+
+	<style name="titleTheme" parent="android:Theme">
+	    <item name="android:windowNoTitle">false</item>
+    	<item name="android:windowTitleSize">40dip</item>
+    	<item name="android:windowTitleBackgroundStyle">@style/customWindowTitleBackground</item>
+	</style>
+	
+	<style name="text_shadow">
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+	<style name="text_title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+	<style name="dialog_progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明, 去掉背景色边框也就去掉了 -->
+     	<!-- <item name="android:windowBackground">@color/transparent</item> -->
+     	<!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- <item name="android:backgroundDimAmount">0.5</item> -->
+        <!-- <item name="android:windowContentOverlay">@null</item> -->
+    </style>
+</resources>

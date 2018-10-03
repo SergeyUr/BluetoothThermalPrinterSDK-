@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="0dip" android:layout_marginTop="150dip"
+		android:layout_marginLeft="0dip" android:layout_marginRight="0dip"
+		android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+    	android:src="@drawable/logo"
+    	android:scaleType="centerInside" android:contentDescription="@string/app_name" />
+    
+    <TextView android:id="@+id/version"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:typeface="serif" android:shadowDx="0" android:shadowDy="2"
+        android:shadowRadius="1" android:shadowColor="#000000" android:textColor="#000000"
+        android:text="" android:textSize="12sp" android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" android:layout_above="@+id/poweredby">
+    </TextView>
+    
+    <TextView android:id="@+id/poweredby"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginBottom="50dip"
+        android:typeface="serif" android:shadowDx="0" android:shadowDy="2"
+        android:shadowRadius="1" android:shadowColor="#000000" android:textColor="#000000"
+        android:text="" android:textSize="12sp" android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true" android:layout_alignParentBottom="true">
+    </TextView>
+</RelativeLayout>

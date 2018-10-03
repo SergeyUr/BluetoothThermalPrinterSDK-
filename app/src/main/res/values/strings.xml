@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">BTPrinterDemo</string>
+    <string name="print">Print(Pair: Pin)</string>
+    <string name="printnp">Print(Pair: NonPin)</string>
+</resources>
